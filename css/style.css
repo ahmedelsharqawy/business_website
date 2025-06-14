@@ -1,0 +1,314 @@
+body {
+    height: 3000px;
+    margin: 0px;
+}
+
+
+nav {
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 300px;
+    height: 120px;
+    margin: 0px;
+
+}
+
+ul {
+    display: flex;
+    column-gap: 40px;
+    list-style-type: none;
+    color: aliceblue;
+
+    font-size: 25px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.li:hover {
+    color: yellow;
+}
+
+.Home {
+    background-image: url(../img/background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+
+}
+
+.tex {
+    color: maroon;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 200px;
+}
+
+.Services {
+    width: 100%;
+    height: 600px;
+}
+
+.Services h2 {
+    display: inline;
+    margin-left: 600px;
+    color: black;
+    font-size: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.line {
+    background-color: yellow;
+    width: 150px;
+    height: 8px;
+    margin: auto;
+}
+
+.services-container {
+    display: flex;
+    cursor: pointer;
+    width: 100%;
+    height: 450px;
+}
+
+.service {
+    margin-top: 20px;
+    background-color: rgba(201, 198, 198, 0.605);
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    margin-left: 140px;
+}
+
+.service img {
+    width: 300px;
+    height: 150;
+}
+
+.About {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 600px;
+    background-color: rgba(201, 198, 198, 0.605);
+}
+
+.aboo {
+    font-size: 50px;
+    display: inline;
+
+}
+
+
+.line3 {
+    background-color: yellow;
+    width: 100px;
+    height: 8px;
+    margin-left: 60px;
+
+}
+
+.text {
+    width: 600px;
+    height: 600px;
+    margin-left: 100px;
+}
+
+.paragraph {
+    text-align: left;
+    font-size: 25px;
+}
+
+.imgabout {
+    background-image: url(../img/about.jpg);
+    background-attachment: fixed;
+    width: 600px;
+    height: 600px;
+    margin-left: 300px;
+}
+
+.line4 {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    background-color: gold;
+
+}
+
+.num1 {
+    margin-left: 60px;
+    margin-top: 20px;
+    color: dimgrey;
+    width: 200px;
+    height: 130px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.line6 {
+    background-color: aliceblue;
+    width: 5px;
+    height: 130px;
+    margin-top: 60px;
+    margin-left: 120px;
+
+}
+
+.pro {
+    width: 100%;
+
+    height: 800px;
+
+}
+
+.pro h2 {
+    display: inline;
+    text-align: center;
+    font-size: 60px;
+    margin-left: 650px;
+}
+
+.line11 {
+    background-color: yellow;
+    width: 90px;
+    height: 8px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.pro-img {
+
+    width: 100%;
+    height: 800px;
+    margin-top: 20px;
+}
+
+.pic {
+    width: 600px;
+    margin-left: 80px;
+}
+
+.pic2 {
+    width: 600px;
+    height: 400px;
+    margin-left: 80px;
+}
+
+.pic3 {
+    width: 600px;
+    height: 400px;
+    margin-left: 80px;
+}
+
+.pic4 {
+    width: 600px;
+    height: 400px;
+    margin-left: 80px;
+}
+
+.Clint {
+
+    margin-top: 200px;
+    width: 100%;
+    height: 350px;
+    background-color: rgba(201, 198, 198, 0.605);
+    border-bottom: 2px solid;
+}
+
+.Clint h2 {
+    display: inline;
+    margin-left: 680px;
+    font-size: 50px;
+}
+
+.picclint {
+    width: 300px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.Contact {
+    width: 100%;
+    height: 1300px;
+}
+
+.Contact h2 {
+    margin-left: 680px;
+    font-size: 50px;
+    display: inline;
+}
+
+.map {
+    width: 900px;
+    height: 350px;
+    background-image: url(../img/Maps.jpg);
+    background-attachment: fixed;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.Contact h4 {
+    display: inline;
+    margin-left: 400px;
+    font-size: 30px;
+}
+
+.hed2 {
+
+    margin-left: 300px;
+}
+
+.hed {
+    margin-left: 90px;
+    font-size: 30px;
+}
+
+.hed1 {
+    margin-left: 920px;
+}
+
+.zzza {
+    margin-left: 940px;
+}
+
+.Contact h3 {
+    margin-left: 400px;
+    font-size: 35px;
+}
+
+.forrm {
+    margin-left: 400px;
+}
+
+.labelnn {
+    font-size: 25px;
+    color: red;
+}
+
+.circ {
+    width: 300px;
+    height: 30px;
+}
+
+.buttton {
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
